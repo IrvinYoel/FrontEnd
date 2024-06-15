@@ -1,2 +1,0 @@
-Para practicar páginas
-Frontend
