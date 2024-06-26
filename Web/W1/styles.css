@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+h2, p, span{
+    color: white;
+}
+
+img{
+    width: 100px;
+    border-radius: 100%;
+}
