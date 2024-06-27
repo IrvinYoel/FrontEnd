@@ -10,3 +10,13 @@ img{
     width: 100px;
     border-radius: 100%;
 }
+
+.container {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 2%;
+}
