@@ -3,8 +3,12 @@
   padding: 0;
 }
 
-body {
+body{
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 h2,
@@ -16,6 +20,7 @@ span {
 img {
   width: 100px;
   border-radius: 100%;
+  margin-top: -50px;
 }
 
 .container {
@@ -24,6 +29,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 350px;
+  width: 300px;
+  height: 500px;
   border-radius: 2%;
 }
