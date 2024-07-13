@@ -41,3 +41,17 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        
+  deploy1:
+    environment:
+      name: github-pages
+      url: ${{ steps.change-page-url.outputs.new_page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy docs to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+      - name: Override page_url
+        id: change-page-url
+        run: echo "new_page_url=${{ steps.deployment.outputs.page_url }}/blob/main/NEWBIE/Presentation%20page/index.html" >> $GITHUB_OUTPUT
