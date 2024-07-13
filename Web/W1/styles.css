@@ -39,6 +39,7 @@ span {
   justify-content: center;
   width: 250px;
   padding: 12px;
+  font-weight: bold;
   background-color: #333333;
   border-radius: 6px;
 }
@@ -49,6 +50,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   width: 340px;
   height: 520px;
   border-radius: 20px;
