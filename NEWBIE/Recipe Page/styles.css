@@ -3,19 +3,12 @@
   padding: 0;
 }
 
-img {
-  width: 350px;
-  border-radius: 15px;
-}
-
-.image {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 body {
   background-color: hsl(30, 54%, 90%);
+}
+img {
+  width: 350px;
+  border-radius: 20px;
 }
 
 p,
@@ -23,15 +16,21 @@ li {
   font-size: 16px;
 }
 
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 10vh;
 }
 
 .card {
   background-color: white;
-  border-radius: 10px;
-  width: 390px;
-  margin-top: 10vh;
+  border-radius: 20px;
+  width: 420px;
 }
