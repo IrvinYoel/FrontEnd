@@ -6,21 +6,6 @@
 body {
   background-color: hsl(30, 54%, 90%);
 }
-img {
-  width: 350px;
-  border-radius: 20px;
-}
-
-p,
-li {
-  font-size: 16px;
-}
-
-.image {
-  display: flex;
-  justify-content: center;
-  margin-top: 35px;
-}
 
 .container {
   display: flex;
@@ -32,5 +17,20 @@ li {
 .card {
   background-color: white;
   border-radius: 20px;
-  width: 420px;
+  width: 500px;
+  padding: 30px;
+}
+
+img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+
+.presentation {
+  padding-top: 15px;
 }
